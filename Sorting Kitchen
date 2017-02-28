@@ -1,0 +1,56 @@
+Last login: Tue Feb 28 09:10:34 on ttys000
+brennenthaney ~
+$ cd ~/code/kitchen/fridge/
+brennenthaney ~/code/kitchen/fridge
+$ mkdir crisper-drawer
+gmkdir: created directory 'crisper-drawer'
+brennenthaney ~/code/kitchen/fridge
+$ mv ~/code/kitchen/fridge/trashcan/ ~/code/kitchen/
+'/Users/brennenthaney/code/kitchen/fridge/trashcan/' -> '/Users/brennenthaney/code/kitchen/trashcan'
+brennenthaney ~/code/kitchen/fridge
+$ rm diapers.txt
+removed 'diapers.txt'
+brennenthaney ~/code/kitchen/fridge
+$ cd ~/code/kitchen/fridge/crisper-drawer/
+brennenthaney ~/code/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+brennenthaney ~/code/kitchen/fridge/crisper-drawer
+$ touch lettuce.txt
+brennenthaney ~/code/kitchen/fridge/crisper-drawer
+$ cd ../../../
+brennenthaney ~/code
+$ cd ~/code/kitchen/
+brennenthaney ~/code/kitchen
+$ rm cans.txt
+removed 'cans.txt'
+brennenthaney ~/code/kitchen
+$ cd ~/code/kitchen/pantry/
+brennenthaney ~/code/kitchen/pantry
+$ rm crisper-drawer
+grm: cannot remove 'crisper-drawer': Is a directory
+brennenthaney ~/code/kitchen/pantry
+$ rm -r crisper-drawer/
+removed 'crisper-drawer/lettuce.txt'
+removed directory 'crisper-drawer/'
+brennenthaney ~/code/kitchen/pantry
+$ cd ../
+brennenthaney ~/code/kitchen
+$ cd ~/code/kitchen/trashcan/
+brennenthaney ~/code/kitchen/trashcan
+$ mv sink/ ../
+'sink/' -> '../sink'
+brennenthaney ~/code/kitchen/trashcan
+$ cd ../
+brennenthaney ~/code/kitchen
+$ cd sink/
+brennenthaney ~/code/kitchen/sink
+$ rm delete-me.txt 
+removed 'delete-me.txt'
+brennenthaney ~/code/kitchen/sink
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+brennenthaney ~/code/kitchen/sink
+$ mv clean-dishes.txt ~/code/kitchen/sink/drying-rack/
+'clean-dishes.txt' -> '/Users/brennenthaney/code/kitchen/sink/drying-rack/clean-dishes.txt'
+brennenthaney ~/code/kitchen/sink
+$ 
